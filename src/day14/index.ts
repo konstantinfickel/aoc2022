@@ -1,7 +1,7 @@
 import run from "aocrunner";
 import { array, lines, tuple } from "../utils/index.js";
 
-import { flatten, map, max, min, mixin, range, repeat, times, toNumber } from "lodash-es";
+import { flatten, map, max, min, range, times, toNumber } from "lodash-es";
 
 const parseInput = lines(array(tuple(toNumber, toNumber, ','), ' -> '));
 
